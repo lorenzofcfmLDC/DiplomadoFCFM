@@ -1,8 +1,3 @@
-#!pip install streamlit pyngrok
-from pyngrok import ngrok
-
-ngrok.set_auth_token("35qGQlPgEHMxvyUm6eKHAGi3LjW_6zStUdtyV4rLxVcdwyG3a")
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
